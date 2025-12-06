@@ -52,8 +52,6 @@ vim docker-compose.yaml
 ```
 
 ```yaml
-version: "3.8"
-
 services:
   vnx:
     image: ghcr.io/zcentury/vnx:latest
