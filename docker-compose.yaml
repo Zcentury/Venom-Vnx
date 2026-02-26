@@ -9,7 +9,7 @@ services:
       - "53:53/udp"
       # web管理功能，用来填写到 Web Tools 中的地址端口
       # 此处为 PORT 的值，如果environment或者config.yaml修改了此值，请对应更改
-      - "8080:8080"
+      # - "8080:8080"
 
     volumes:
       # 此处为 UPLOAD_SAVE_PATH 的值，如果environment或者config.yaml修改了此值，请对应更改
